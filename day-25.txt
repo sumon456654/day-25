@@ -1,0 +1,25 @@
+web Development					Date:5/12/2022
+Day-25
+
+1. xamp-------server & Do ---start
+2. htdoc------
+3. Browser---localhost/file name/wp-admin-----Dashboard
+
+
+
+
+
+
+
+4. register menues (serces open Browser)nav menu (fasst work)
+	* copy- register_nav_menus(array() );
+	* paste---funtion.php
+5. wp_nav_menu (serces open Browser)
+	*          <?php wp_nav_menu(array(
+                      'theme_location'=>'main_Menu',
+                      'menu_class'=>'navbar-nav menu_top'
+                      ) ); ?>
+		*          <?php theme location(array(
+                      'theme_location'=>'main_Menu',
+                      'menu_class'=>'Nambare_nav'
+                      ) ); ?>
